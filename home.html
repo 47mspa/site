@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<title>Michelle Wong</title>
+	<link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+	<div id="app_container">
+		<div id="background_container">
+			<img id="background_image" src="pics/golden_canyon.jpg"/>
+			<h1 id="name_header">Michelle<br>Wong</h1>
+			<h2 id="pic_info">Death Valley National Park, November 2014</h2>		
+		</div>
+		<div id="foreground_container" style="display: none">
+			<div id="nav_bar_container">
+				<p class="nav_bar_link" id="home_p">Home</p>
+				<p class="nav_bar_link" id="about_p">About</p>
+				<p class="nav_bar_link" id="projects_p">Projects</p>
+				<!-- <p class="nav_bar_link">Stuff</p> -->
+			</div>
+			<div id="about_container">
+				<div class="container" id="text_container" style="display: block">
+					<p class="title">Hi!</p>
+					<p>I'm really into running, biking and riding rollercoasters (the bigger the better!!) I am a third year software engineering student @ The University of Waterloo.</p>
+					<p>I just finished up my third co-op term last fall at <a href="https://www.coursera.org/">Coursera</a> in Mountain View.  I worked as a mobile engineer on the Android team.  Previously I've interned at Intentional Software and IBM.</p>
+					<p>I'm always interested in learning new technologies and building cool stuff. Checkout some of the <a id="projects_link">projects</a> I've worked on.  Feel free to contact me at mmcwong@uwaterloo.ca</p>
+				</div>
+				<div class="container" id="projects_container">
+					<p class="title">Projects</p>
+					<div id="projects_text">
+						<p>Listed below are some of the programming and engineering projects I have worked on in the last two years during my free time.  It's always pretty amazing how much you can learn from what seems to be the smallest of goals.</p>
+					</div>
+					<div id="project_pics">
+						<div class="project_preview" id="lost_div">
+							<img width="95%" height="95%" id="lost_div_img" src="images/lost.jpg"/>
+							<div id="lost_overlay" class="overlay"><div id="lost_text">Lost</div></div>		
+						</div>
+						<div class="project_preview" id="paintr_div">
+							<img width="80%" height="80%" id="paintr_div_img" src="images/paintR4.png"/>
+							<div id="paintr_overlay" class="overlay"><div id="paintr_text">PaintR</div></div>	
+						</div>
+						<div class="project_preview" id="blocks_div">
+							<img width="90%" height="90%" id="blocks_div_img" src="images/blocks1.png"/>
+							<div id="blocks_overlay" class="overlay"><div id="blocks_text">Blocks</div></div>	
+						</div>
+						<div class="project_preview" id="calendar_div">
+							<img width="95%" height="95%" id="calendar_div_img" src="images/calendar2.png"/>
+							<div id="calendar_overlay" class="overlay"><div id="calendar_text">Calendar</div></div>	
+						</div>						
+					</div>
+				</div>
+
+				<div class="container" id="lost_container">
+					<p class="title">Lost</p>
+					<div class="project_imgs">
+						<img class="lost_images" src="images/lost.jpg"/>
+					</div>
+					<div class="project_description">
+						<p>Inspired by having a phone stolen, this application allows you to track down your laptop's location and remotely lock it. </p>
+						<p> Technologies used: <br>
+							Desktop: C# <br>
+							Web: Javascript, PHP, mySQL</p>
+						</div>
+					</div>
+					<div class="container" id="paintr_container">
+						<p class="title">PaintR</p>
+						<div class="project_imgs">
+							<img class="paintR_images" src="images/paintR2.png"/>
+							<img class="paintR_images" src="images/paintR3.png"/>
+							<img class="paintR_images" src="images/paintR4.png"/>
+							<img class="paintR_images" src="images/paintR5.png"/>
+						</div>
+						<div class="project_description">
+							<p>A finger painting application for the Android platform.  Users can create, edit and capture images to their heart's content!</p>
+							<p> Technologies used: <br>								
+								Android SDK</p>
+								<a href="https://github.com/47mspa/Paint">View Source</a>
+							</div>
+						</div>
+						<div class="container" id="blocks_container">
+							<p class="title">Blocks</p>
+							<div class="project_imgs">
+								<img class="blocks_images" src="images/blocks1.png"/>
+								<img class="blocks_images" src="images/blocks2.png"/>
+								<img class="blocks_images" src="images/blocks3.png"/>
+							</div>
+							<div class="project_description">
+								<p>A twist on the classical game of Tetris!</p>
+								<p> Technologies used: <br>								
+									Java Swing</p>
+									<a href="https://github.com/47mspa/Blocks">View Source</a>
+
+								</div>
+							</div>
+
+							<div class="container" id="calendar_container">
+								<p class="title">Calendar</p>
+								<div class="project_imgs">
+									<img class="calendar_images" src="images/calendar1.png"/>
+									<img class="calendar_images" src="images/calendar2.png"/>
+								</div>
+								<div class="project_description">
+									<p>A calendar program written using Java. Parses HTML for relevant information (news headlines).</p>
+									<p> Technologies used: <br>								
+										Java Swing, JSoup</p>
+										<a href="https://github.com/47mspa/Personal-Organizer">View Source</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					
+					<script src="js/jquery-2.1.3.min.js"></script>
+					<script src="js/index.js"></script>
+				</body>
+				</html>
